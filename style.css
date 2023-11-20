@@ -1,8 +1,145 @@
-.main {
-    height:100px ;
-    display: flex;
-    align-items:flex-start;
-    justify-content:space-evenly;
-    background-color: #1F2937;
-    font-size: large;
+.header {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  padding: 40px;
+  height: 550px;
+  font-size: 18px;
+}
+.header-logo {
+  display: flex;
+  font-size: 24px;
+  color: #f9faf8;
+}
+.header-main {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0px 200px;
+  padding: 50px;
+  gap: 40px;
+  justify-content: space-between;
+}
+.header-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+.signupbuttonheader {
+  padding: 5px 35px;
+  border-radius: 9px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+}
+ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 30px;
+  font-size: 18px;
+}
+body {
+  margin: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.header-text {
+  display: flex;
+  align-items: center;
+}
+.header-left {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.header-right {
+  display: flex;
+  justify-content: end;
+  height: 300px;
+  border-radius: 9px;
+}
+
+.middle-title {
+  text-align: center;
+  font-size: 36px;
+  height: 100px;
+}
+
+.middle-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  max-width: 200px;
+  height: 700px;
+}
+.sport {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle-part img {
+  display: flex;
+  align-items: center;
+  border-radius: 9px;
+  height: 250px;
+  width: 200px;
+  justify-content: center;
+}
+.sport-information {
+  text-align: center;
+}
+.middle-quote {
+  display: flex;
+  height: 450px;
+  background-color: #e5e7eb;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 36px;
+  font: italic;
+  color: #1f2937;
+  flex-wrap: wrap;
+}
+
+.signup {
+  display: flex;
+  height: 200px;
+  width: 1000px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content: space-around;
+  align-items: center;
+  background: #3882f6;
+  color: #e5e7eb;
+  border-radius: 9px;
+  margin: auto;
+}
+.signup-left {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.signupbutton {
+  border: solid 2px #e5e7eb;
+  padding: 5px 35px;
+  border-radius: 9px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  height: 10px;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  padding: 35px;
 }
